@@ -58,4 +58,4 @@ tracks:
     ros_distro: hydro
     vcs_type: git
     vcs_uri: https://github.com/ros-simulation/gazebo_ros_pkgs.git
-    version: :{auto}
+    version: 2.4.2
