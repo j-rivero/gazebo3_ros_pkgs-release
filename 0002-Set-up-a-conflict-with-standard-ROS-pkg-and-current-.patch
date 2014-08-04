@@ -1,11 +1,11 @@
-From 2486671141020ee4f9873fe43e717d61bd7ca2d3 Mon Sep 17 00:00:00 2001
+From 9eb036f59ed2d4d01223220a1147c2110f7cd4b1 Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Thu, 10 Apr 2014 00:16:42 +0200
 Subject: [PATCH 2/2] Set up a conflict with standard ROS pkg and -current
  version
 
 ---
- debian/control.em |    1 +
+ debian/control.em | 1 +
  1 file changed, 1 insertion(+)
 
 diff --git a/debian/control.em b/debian/control.em
@@ -19,5 +19,5 @@ index 0c9524c..7c0a299 100644
 +Conflicts: @(Package), @(Package)-current
  Description: @(Description)
 -- 
-1.7.9.5
+1.8.1.2
 
